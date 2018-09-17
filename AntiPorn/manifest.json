@@ -1,0 +1,33 @@
+{
+  "name": "AntiPorn",
+  "version": "1.0",
+  "description": "Block Porn Sites",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent" : true
+  },
+  "content_scripts":[
+    {
+    "matches": [
+      "<all_urls>"
+    ],
+    "js": [
+      "contentscript.js"
+    ],
+    "run_at": "document_start"    
+    }
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "images/baseline_pan_tool_black_18dp_1x.png",
+      "32": "images/baseline_pan_tool_black_18dp_2x.png"
+    }
+  },
+  "manifest_version": 2
+}
