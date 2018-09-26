@@ -15,7 +15,6 @@ sleep.onclick = function() {
     activeBtn.style.backgroundColor = "gray";
     activeBtn.style.color = "white";
     activeBtn.innerHTML = "ACTIVE";
-    active = false;
   }
 }
 //huyle, uet
