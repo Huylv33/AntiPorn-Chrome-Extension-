@@ -27,7 +27,8 @@
     "default_icon": {
       "16": "images/baseline_pan_tool_black_18dp_1x.png",
       "32": "images/baseline_pan_tool_black_18dp_2x.png"
-    }
+    },
+    "default_popup": "popup.html"    
   },
   "manifest_version": 2
 }

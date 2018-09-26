@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+    #container {
+      width: 200px;
+      height: 200px;
+    }
+    #header {
+      text-align: center;
+      padding: 10px;
+      border-bottom: 1px solid red;
+      color: red;
+    }
+    #middle {
+      height: 120px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;  
+    }
+    #activeBtn {
+      width: 120px;
+      height: 30px;
+      border-radius: 4px;
+      background-color: gray;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      cursor: pointer;
+    }
+    #footer {
+      margin-bottom: 0;
+      height: 10px; 
+      border-top: 1px solid black;
+      text-align: center;
+      padding: 8px;
+    }
+    #activeBtn:hover {
+      padding: 8px;
+      background-color: white;
+      color: blue;
+      border: 0.75px solid blue;
+    }
+    
+    #turnoff {
+      display: none;
+      color: #01a3a4;
+      font-size: 18px;
+      margin-bottom: 4px;
+      cursor: pointer;
+    }
+ </style>
+</head> 
+<body>
+  <div id="container">
+    <div id="header">
+        Block Porn Sites
+    </div>
+    <div id="middle">
+      <div id="activeBtn">
+        ACTIVATE
+      </div>
+      <p id="turnoff">Sleep</p>
+    </div>
+    <div id="footer">
+      Huy Le 9/17/2018
+    </div>
+  </div>  
+  <script src="popup.js"></script>
+</body>
+</html>
