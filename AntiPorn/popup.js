@@ -13,11 +13,13 @@ sleep.onclick = function() {
   if (active === true) {
     sleep.style.display  = "none";
     activeBtn.style.backgroundColor = "gray";
-    activeBtn.style.color = "white";
+    activeBtn.style.color = "yelow";
     activeBtn.innerHTML = "ACTIVE";
   }
 }
 //huyle, uet
-
+sleep.ondblclick = function () { 
+  alert("huyle");
+}
 
 
