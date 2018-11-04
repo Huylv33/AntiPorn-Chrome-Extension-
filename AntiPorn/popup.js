@@ -13,7 +13,7 @@ sleep.onclick = function() {
   if (active === true) {
     sleep.style.display  = "none";
     activeBtn.style.backgroundColor = "gray";
-    activeBtn.style.color = "white";
+    activeBtn.style.color = "blue"; //blue
     activeBtn.innerHTML = "ACTIVE";
   }
 }
